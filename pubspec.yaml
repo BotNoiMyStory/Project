@@ -1,0 +1,68 @@
+name: applicationproject
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.4 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  audioplayers: ^6.1.0
+  flutter_svg: 2.0.9
+  excel: ^2.0.8
+  path_provider: ^2.0.14
+  material_design_icons_flutter: ^5.0.0
+  flutter_islamic_icons: ^1.0.2
+  mysql1: ^0.19.2
+  http: ^0.13.3
+  video_player: ^2.4.5
+  shared_preferences: ^2.0.10
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  provider: ^6.0.5
+
+flutter:
+  assets:
+    - assets/images/
+    - assets/data/
+  fonts:
+    - family: Chulamooc
+      fonts:
+        - asset: assets/fonts/ChulaCharasNewBold.ttf
+        - asset: assets/fonts/ChulaCharasNewBoldIta.ttf
+        - asset: assets/fonts/ChulaCharasNewIta.ttf
+    - family: Google-Font
+      fonts:
+        - asset: assets/fonts/Lateef-Bold.ttf
+        - asset: assets/fonts/Lateef-ExtraBold.ttf
+        - asset: assets/fonts/Lateef-ExtraLight.ttf
+        - asset: assets/fonts/Lateef-Light.ttf
+        - asset: assets/fonts/Lateef-Medium.ttf
+        - asset: assets/fonts/Lateef-Regular.ttf
+        - asset: assets/fonts/Lateef-SemiBold.ttf
+    - family: Arab
+      fonts:
+        - asset: assets/fonts/AyatQuran1-5y1Rj.ttf
+        - asset: assets/fonts/AyatQuran2-8OM6D.ttf
+        - asset: assets/fonts/AyatQuran12-dr9MR.ttf
+        - asset: assets/fonts/AyatQuran11-m2Lj9.ttf
+        - asset: assets/fonts/AyatQuran10-gwxvq.ttf
+        - asset: assets/fonts/AyatQuran9-6RYBv.ttf
+        - asset: assets/fonts/AyatQuran8-Yqz0j.ttf
+        - asset: assets/fonts/AyatQuran7-8OMy0.ttf
+        - asset: assets/fonts/AyatQuran5-zr85l.ttf
+        - asset: assets/fonts/AyatQuran6-zr8G1.ttf
+        - asset: assets/fonts/AyatQuran4-R9poM.ttf
+        - asset: assets/fonts/AyatQuran3-1jGzg.ttf
+        - asset: assets/fonts/AyatQuran2-8OM6D.ttf
+
+
+
